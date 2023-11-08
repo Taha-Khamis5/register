@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Register page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="font awesome/css/all.css">
+  <link rel="stylesheet" href="font awesome/css/all.min.css">
+  <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+      <div class=" row justify-content-center">
+            <div class="name-pages">
+              <div class="page-1 pages">
+                <p>01</p>
+              </div>
+              <div class="points">
+                <span class="dash">.</span>
+                <span class="dash">.</span>
+                <span class="dash">.</span>
+                <span class="dash">.</span>
+                <span class="dash">.</span>
+                <span class="dash">.</span>
+                <span class="dash">.</span>
+                <span class="dash">.</span>
+                <span class="dash">.</span>
+                <span class="dash">.</span>
+                <span class="dash">.</span>
+                <span class="dash">.</span>
+              </div>
+              <div style="margin-left: 5px;" class="page-2 pages">
+                <p>02</p>
+              </div>
+            </div>
+            <div class="title-form">
+              <h2>Register</h2>
+            </div>
+            <form onsubmit="return validateForm()" action="face/face.html" method="post">
+                <div class="form-group">
+                  <label for="name" style="margin-bottom: 5px;">Name</label>
+                  <input type="text" class="form-control" id="name" placeholder="Enter username" name="username">
+                </div>
+                <select name="q1" id="question-1">
+                    <option value=""  disabled selected hidden>Choose a question one</option>
+                    <option value="school">ما هو اسم مدرستك الاولي</option>
+                    <option value="anml">ما هو حيوانك المفضل</option>
+                    <option value="eat">طعامك المفضل</option>
+                </select>
+                <div class="form-group">
+                  <label for="name" style="margin-bottom: 5px;">Answer question one</label>
+                  <input type="text" class="form-control" id="answer1" placeholder="your answer" name="gq1">
+                </div>
+                <select name="q2" id="question-2">
+                    <option value="" class="fake-select" disabled selected hidden>Choose a question two</option>
+                    <option value="school">ما هو اسم مدرستك الاولي</option>
+                    <option value="anml">ما هو حيوانك المفضل</option>
+                    <option value="eat">طعامك المفضل</option>
+                </select>
+                <div class="form-group">
+                  <label for="name" style="margin-bottom: 5px;">Answer question two</label>
+                  <input type="text" class="form-control" id="answer2" placeholder="your answer" name="gq2">
+                </div>
+                <a href="face/face.html" style="text-decoration: none;">
+                  <input type="submit" value="Contanue" class="btn btn-dark">
+                </a>
+                <div class="new-account">
+                  <p>Do you have an account ? </p>
+                  <a href="login-2/login2.html" class="login">sign in</a>
+                </div>
+            </form>
+      </div>
+  </div>
+
+
+  <script src="bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

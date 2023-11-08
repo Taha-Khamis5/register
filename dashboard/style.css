@@ -1,0 +1,102 @@
+body {
+    background-color: #222;
+    margin: 0;
+    color: white;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 30px 5px;
+    width: 100%;
+    height: fit-content;
+    background-color: #333;
+    color: white;
+}
+.logout div {
+    width: fit-content;
+    padding: 5px;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #555;
+    border-radius: 8px;
+    background-color: #222;
+}
+.logout div i {
+    color: rgb(211, 54, 54);
+}
+.logout div input {
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+
+
+.search-add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    margin-top: 30px;
+}
+.search-add .search {
+    width: 35%;
+    height: 7vh;
+    background-color: #333;
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+.search-add .search i {
+    color: #999;
+    width: 3%;
+}
+.search-add .search input {
+    border: none;
+    color: white;
+    background-color: transparent;
+    width: 90%;
+    margin-left: 10px;
+    padding: 1%;
+}
+.search-add .search input::placeholder {
+    color: #999;
+}
+.search-add .search input:focus {
+    box-decoration-break: slice;
+}
+
+
+
+.search-add .add {
+    width: 8%;
+    height: 7vh;
+    background-color: #1CBA9E;
+    padding: 13px;
+    padding-left: 20px;
+    border-radius: 50px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-add .add i {
+    color: #999;
+    width: fit-content;
+    height: fit-content;
+    padding: 4px;
+    background-color: white;
+    border-radius: 50%;
+}
+.search-add .add button {
+    border: none;
+    color: white;
+    background-color: transparent;
+}
+

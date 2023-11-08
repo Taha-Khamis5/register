@@ -1,0 +1,125 @@
+body {
+    background-image: url(../images/complex-information-that-is-in-digital-form-background_1557123.jpg);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+}
+.container {
+    width: calc(100% / 3);
+    height: 75vh;
+    margin-top: calc(25vh / 2);
+    border: .5px solid rgba(153, 153, 153, 0.385);
+    border-radius: 25px;
+    background-color: rgba(28, 27, 27, 0.5);
+}
+.name-pages {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.name-pages .pages {
+    text-align: center;
+    height: 20%;
+}
+.name-pages .pages p {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #888;
+    border-radius: 50%;
+    position: relative;
+    font-weight: 700;
+}
+.name-pages .page-1 p {
+    margin-right: 5px;
+}
+.name-pages .page-1 p::after {
+    content: "Personal info";
+    width: 100px;
+    position: absolute;
+    top: 100%;
+    left: 1;
+    margin-top: 10px;
+}
+.name-pages .page-1 p {
+    color: #1CBA9E;
+    border-color: #1CBA9E;
+    margin-left: 5px;
+}
+.name-pages .page-2 p::after {
+    content: "Face id";
+    width: 100px;
+    position: absolute;
+    top: 100%;
+    left: 1;
+    margin-top: 10px;
+
+}
+.title-form {
+    text-align: center;
+}
+.title-form h2 {
+    font-size: 55px;
+    margin-top: 5px;
+}
+
+/* style for form */
+form {
+    width: 45vh;
+}
+form .form-group {
+    margin-bottom: 20px;
+}
+
+form .form-group .form-control {
+    background-color: rgb(27, 26, 26);
+    color: white;
+    border: none;
+}
+form .form-group .form-control::placeholder {
+    color: #555;
+    font-size: 15px;
+}
+
+
+/* select element */
+form select {
+    border: 1px solid #444;
+    width: inherit;
+    height: 38px;
+    color: #666;
+    background-color: rgb(18, 17, 17);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+/* button submit style */
+
+.btn-dark {
+    display: block;
+    width: 100%;
+    background-color: #1CBB9E;
+    font-weight: bold;
+}
+
+.new-account {
+    display: flex;
+    justify-content: center;
+    margin-top: 63px;
+}
+.new-account .login {
+    color: #1CBA9E;
+    font-weight: 700;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+
+
+
+

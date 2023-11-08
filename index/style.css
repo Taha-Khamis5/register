@@ -1,0 +1,24 @@
+body {
+    background-image: url(../images/complex-information-that-is-in-digital-form-background_1557123.jpg);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+}
+.container {
+    width: calc(100% / 3);
+    height: 75vh;
+    margin-top: calc(25vh / 2);
+    border: .5px solid rgba(153, 153, 153, 0.385);
+    border-radius: 25px;
+    background-color: rgba(28, 27, 27, 0.5);
+}
+.btn-dark {
+    display: block;
+    width: 100%;
+    background-color: #1CBA9E;
+    font-weight: bold;
+
+    margin-top: 130%
+}

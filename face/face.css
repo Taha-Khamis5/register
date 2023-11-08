@@ -1,0 +1,104 @@
+body {
+    background-image: url(../images/complex-information-that-is-in-digital-form-background_1557123.jpg);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+}
+.container {
+    width: calc(100% / 3);
+    height: 75vh;
+    margin-top: calc(25vh / 2);
+    border: .5px solid rgba(153, 153, 153, 0.385);
+    border-radius: 25px;
+    background-color: rgba(28, 27, 27, 0.5);
+}
+.name-pages {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.name-pages .pages {
+    text-align: center;
+    height: 20%;
+}
+.name-pages .pages p {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #888;
+    border-radius: 50%;
+    position: relative;
+    font-weight: 700;
+}
+.name-pages .page-1 p {
+    margin-right: 5px;
+}
+.name-pages .page-1 p::after {
+    content: "Personal info";
+    width: 100px;
+    position: absolute;
+    top: 100%;
+    left: 1;
+    margin-top: 10px;
+}
+.name-pages .page-2 p {
+    color: #1CBA9E;
+    border-color: #1CBA9E;
+    margin-left: 5px;
+}
+.name-pages .page-2 p::after {
+    content: "Face id";
+    width: 100px;
+    position: absolute;
+    top: 100%;
+    left: 1;
+    margin-top: 10px;
+    color: #1CBA9E;
+}
+.title-form {
+    text-align: center;
+}
+.title-form h2 {
+    font-size: 55px;
+    margin-top: 5px;
+}
+
+/* --------------------------------- style for video element ------------------- */
+.parent-video {
+    width: 100%;
+    height: 70%;
+    margin-top: 25px;
+    overflow: hidden;
+}
+.parent-video video {
+    background-image: url(../images/images-face/face\ shape\ 2.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 100%;
+    margin-left: 8.8%;
+    height: 57.5%;
+}
+
+.parent-video button {
+    display: block;
+    width: 100%;
+    background-color: #1CBA9E;
+    font-weight: bold;
+    margin-top: 85px;
+}
+
+.new-account {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+.new-account .login {
+    color: #1CBA9E;
+    font-weight: 700;
+    margin-left: 5px;
+    font-size: 14px;
+}
